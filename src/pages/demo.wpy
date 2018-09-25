@@ -1,0 +1,17 @@
+<template>
+
+</template>
+
+<script>
+import wepy from 'wepy'
+export default class Demo extends wepy.page {
+    config = {
+        navigationBarTitleText: 'demo'
+    }
+    onLoad() {
+        console.log(11111);
+    }
+}
+</script>
+<style>
+</style>

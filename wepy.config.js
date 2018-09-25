@@ -2,8 +2,8 @@ const path = require('path');
 var prod = process.env.NODE_ENV === 'production';
 
 module.exports = {
-  wpyExt: '.wpy',
-  eslint: true,
+  wpyExt: '.wpy', // 设置语法高亮，可以修改为.vue
+  eslint: false,
   cliLogs: !prod,
   build: {
     web: {
